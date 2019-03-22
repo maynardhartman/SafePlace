@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  h1 {
+     font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 20px 0;
+    line-height: 1.25;
+  }
+
+  .home {
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0;
+
+      nav {
+        display: flex;
+        width: 70%;
+        justify-content: space-evenly;
+      }
+    }
+
+
+  }
+
+  // Component Styles
+  .accordion {
+
+    .panel {
+      padding: 30px;
+      //border: 1px solid gray;
+
+      .panel-bar {
+        display: flex;
+        justify-content: space-between;
+
+        .panel-buttons {
+
+          button {
+            cursor: pointer;
+          }
+
+          .hide-btn {
+            display: none;
+          }
+        }
+      }
+
+      .panel-content {
+        display: none;
+      }
+
+      .toggle-on {
+        display: block;
+      }
+    }
+  }
+
+  .name {
+      color: dodgerblue;
+  }
+
+  .panel-bar .red-name {
+      color: red;
+  }
+
+  .panel-btn-open {
+
+    background-color: rgb(254, 255, 255); /* white */
+    border: 1px solid black;
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+   }
+
+   .panel-content p {
+    word-wrap: wrap;
+    font-size: 14px;
+    padding: 10px;
+   }
+
+   .panel-content a {
+
+     width: 50%;
+     align-content: center;
+     display: flex;
+   }
+
+
